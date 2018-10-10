@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a49a457c-16ee-498f-912a-d830a5dfd611" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.21.0" />
+      </map>
+    </option>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Online-pharmacy" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AbstractSQLQueries.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractSQLQueries.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3460">
+              <caret line="173" column="65" selection-start-line="173" selection-start-column="65" selection-end-line="173" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5940">
+              <caret line="310" column="20" selection-start-line="310" selection-start-column="20" selection-end-line="310" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3120">
+              <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderItemDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderItemDao.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="SubstanceDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/SubstanceDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3200">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Drug.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Drug.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3460">
+              <caret line="177" column="69" selection-start-line="177" selection-start-column="69" selection-end-line="177" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/servlets/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="627" column="7" lean-forward="true" selection-start-line="627" selection-start-column="7" selection-end-line="627" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrugDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/DrugDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7160">
+              <caret line="373" selection-start-line="373" selection-end-line="373" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractOrderDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractOrderDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractUserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="CSS File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ole.</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/filters/package-info.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/UserRole.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/DrugType.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/doctor/doctor.jsp" />
+        <option value="$PROJECT_DIR$/sql/3_init_tables.sql" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/filters/AuthorizationFilter.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/filters/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/package-info.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Entity.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/AbstractEntity.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/SortByName.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/Specification.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/SortDrugsByName.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/SortDrugsByPrice.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractProgramConstants.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractDao.java" />
+        <option value="$PROJECT_DIR$/web/styles/index_style.css" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/DrugFactory.java" />
+        <option value="$PROJECT_DIR$/web/styles/admin_style.css" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/UserFactory.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/users.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractSubstanceDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/EntityFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/OrderItemFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/OrderFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractOrderItemDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Drug.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Recipe.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Substance.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Order.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/OrderItem.java" />
+        <option value="$PROJECT_DIR$/web/styles/drugs_style.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/drugs.jsp" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/AbstractEntity.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin.jsp" />
+        <option value="$PROJECT_DIR$/web/js/main.js" />
+        <option value="$PROJECT_DIR$/web/styles/client_style.css" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractDrugDao.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/client/client.jsp" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractSQLQueries.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/DrugDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderItemDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/SubstanceDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractUserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractOrderDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/servlets/Controller.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="checksumPolicy" value="FAIL" />
+        <option name="failureBehavior" value="FAST" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1060" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="onlinepharmacy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="onlinepharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="onlinepharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="onlinepharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="onlinepharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="onlinepharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="onlinepharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/IdeaProjects/Online-pharmacy/web/index.jsp" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar!/" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\Online-pharmacy\web\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tomcat 9.0.8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_8_Online-pharmacy" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51039" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a49a457c-16ee-498f-912a-d830a5dfd611" name="Default" comment="" />
+      <created>1536598594140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536598594140</updated>
+      <workItem from="1536598597578" duration="1002000" />
+      <workItem from="1536601224379" duration="1266000" />
+      <workItem from="1536604635660" duration="1784000" />
+      <workItem from="1536606561329" duration="1716000" />
+      <workItem from="1536608462547" duration="1790000" />
+      <workItem from="1536610284013" duration="1822000" />
+      <workItem from="1536613168825" duration="1789000" />
+      <workItem from="1536646262352" duration="335000" />
+      <workItem from="1536647889688" duration="173000" />
+      <workItem from="1536648083571" duration="564000" />
+      <workItem from="1536648706668" duration="1163000" />
+      <workItem from="1536649908325" duration="1785000" />
+      <workItem from="1536651737544" duration="1789000" />
+      <workItem from="1536653558528" duration="425000" />
+      <workItem from="1536654495650" duration="191000" />
+      <workItem from="1536654806602" duration="554000" />
+      <workItem from="1536655384951" duration="2060000" />
+      <workItem from="1536670541265" duration="1389000" />
+      <workItem from="1536678284374" duration="642000" />
+      <workItem from="1536682341905" duration="689000" />
+      <workItem from="1536684006711" duration="1885000" />
+      <workItem from="1536685960763" duration="1789000" />
+      <workItem from="1536687847813" duration="1785000" />
+      <workItem from="1536689657203" duration="1333000" />
+      <workItem from="1536692171228" duration="1033000" />
+      <workItem from="1536693982956" duration="870000" />
+      <workItem from="1536695038491" duration="739000" />
+      <workItem from="1536695801159" duration="1787000" />
+      <workItem from="1536697614705" duration="1760000" />
+      <workItem from="1536699437906" duration="1784000" />
+      <workItem from="1536701681703" duration="1861000" />
+      <workItem from="1536703587754" duration="1567000" />
+      <workItem from="1536748885768" duration="460000" />
+      <workItem from="1536750926648" duration="1869000" />
+      <workItem from="1536753641062" duration="417000" />
+      <workItem from="1536754420741" duration="1036000" />
+      <workItem from="1536755484289" duration="1476000" />
+      <workItem from="1536756989476" duration="476000" />
+      <workItem from="1536761499182" duration="129000" />
+      <workItem from="1536762670954" duration="67000" />
+      <workItem from="1536762761593" duration="263000" />
+      <workItem from="1536763065861" duration="592000" />
+      <workItem from="1536763680153" duration="773000" />
+      <workItem from="1536764501568" duration="1402000" />
+      <workItem from="1536766496248" duration="197000" />
+      <workItem from="1536768850149" duration="1776000" />
+      <workItem from="1536770658116" duration="1802000" />
+      <workItem from="1536772603289" duration="80000" />
+      <workItem from="1536785592385" duration="1782000" />
+      <workItem from="1536787653343" duration="1788000" />
+      <workItem from="1536789467118" duration="1750000" />
+      <workItem from="1536825770315" duration="1740000" />
+      <workItem from="1536827616503" duration="1775000" />
+      <workItem from="1536829452216" duration="750000" />
+      <workItem from="1536830875817" duration="204000" />
+      <workItem from="1536836825549" duration="272000" />
+      <workItem from="1536841380478" duration="146000" />
+      <workItem from="1536841552433" duration="1781000" />
+      <workItem from="1536843381253" duration="1758000" />
+      <workItem from="1536845199234" duration="1142000" />
+      <workItem from="1536874439990" duration="3854000" />
+      <workItem from="1536922609436" duration="3941000" />
+      <workItem from="1536934110739" duration="7634000" />
+      <workItem from="1536955933844" duration="6533000" />
+      <workItem from="1536996292777" duration="2084000" />
+      <workItem from="1537000375640" duration="26000" />
+      <workItem from="1537000411860" duration="3207000" />
+      <workItem from="1537003877192" duration="1523000" />
+      <workItem from="1537006011925" duration="22610000" />
+      <workItem from="1537087345927" duration="419000" />
+      <workItem from="1537090639598" duration="1354000" />
+      <workItem from="1537092874577" duration="473000" />
+      <workItem from="1537093375310" duration="436000" />
+      <workItem from="1537093988357" duration="242000" />
+      <workItem from="1537094792040" duration="144000" />
+      <workItem from="1537094971510" duration="312000" />
+      <workItem from="1537095317687" duration="143000" />
+      <workItem from="1537098358521" duration="223000" />
+      <workItem from="1537098646222" duration="484000" />
+      <workItem from="1537099265442" duration="11330000" />
+      <workItem from="1537130360381" duration="4147000" />
+      <workItem from="1537164387028" duration="3393000" />
+      <workItem from="1537180489289" duration="5654000" />
+      <workItem from="1537197689213" duration="1596000" />
+      <workItem from="1537199318263" duration="78000" />
+      <workItem from="1537199481758" duration="175000" />
+      <workItem from="1537199733741" duration="876000" />
+      <workItem from="1537200640441" duration="152000" />
+      <workItem from="1537200802827" duration="832000" />
+      <workItem from="1537211877820" duration="5443000" />
+      <workItem from="1537219572663" duration="6218000" />
+      <workItem from="1537269321772" duration="12000" />
+      <workItem from="1537269355517" duration="5000" />
+      <workItem from="1537295881482" duration="6223000" />
+      <workItem from="1537346884571" duration="182000" />
+      <workItem from="1537348027588" duration="1003000" />
+      <workItem from="1537349441507" duration="256000" />
+      <workItem from="1537349744673" duration="12392000" />
+      <workItem from="1537372480013" duration="895000" />
+      <workItem from="1537373445634" duration="32000" />
+      <workItem from="1537373487573" duration="267000" />
+      <workItem from="1537373833028" duration="10395000" />
+      <workItem from="1537394098908" duration="251000" />
+      <workItem from="1537422372083" duration="2867000" />
+      <workItem from="1537425520684" duration="2887000" />
+      <workItem from="1537431663273" duration="760000" />
+      <workItem from="1537432683640" duration="28000" />
+      <workItem from="1537432867702" duration="9271000" />
+      <workItem from="1537446951273" duration="2835000" />
+      <workItem from="1537449906499" duration="6280000" />
+      <workItem from="1537472063516" duration="421000" />
+      <workItem from="1537472514087" duration="1433000" />
+      <workItem from="1537473980430" duration="8840000" />
+      <workItem from="1537521291542" duration="15759000" />
+      <workItem from="1537543582927" duration="8428000" />
+      <workItem from="1537601839669" duration="694000" />
+      <workItem from="1537612274312" duration="483000" />
+      <workItem from="1537642896369" duration="1909000" />
+      <workItem from="1537650462833" duration="4845000" />
+      <workItem from="1537691389482" duration="8886000" />
+      <workItem from="1537707907890" duration="7792000" />
+      <workItem from="1537735640388" duration="3314000" />
+      <workItem from="1537769943597" duration="9312000" />
+      <workItem from="1537793706905" duration="2876000" />
+      <workItem from="1537814918233" duration="7423000" />
+      <workItem from="1537855924535" duration="29035000" />
+      <workItem from="1537906211577" duration="294000" />
+      <workItem from="1537906603709" duration="144000" />
+      <workItem from="1537906811880" duration="1395000" />
+      <workItem from="1537909350870" duration="526000" />
+      <workItem from="1537946702628" duration="4476000" />
+      <workItem from="1537973076389" duration="2457000" />
+      <workItem from="1537978306776" duration="1614000" />
+      <workItem from="1537981285783" duration="5813000" />
+      <workItem from="1537995559662" duration="7247000" />
+      <workItem from="1538002995396" duration="753000" />
+      <workItem from="1538036003324" duration="7937000" />
+      <workItem from="1538051950847" duration="1601000" />
+      <workItem from="1538054202089" duration="5777000" />
+      <workItem from="1538086098953" duration="24235000" />
+      <workItem from="1538218996449" duration="29429000" />
+      <workItem from="1538297702514" duration="15969000" />
+      <workItem from="1538327213074" duration="2262000" />
+      <workItem from="1538329551190" duration="97000" />
+      <workItem from="1538329695537" duration="438000" />
+      <workItem from="1538330180876" duration="6197000" />
+      <workItem from="1538380009545" duration="2165000" />
+      <workItem from="1538397564396" duration="24089000" />
+      <workItem from="1538471716482" duration="11401000" />
+      <workItem from="1538514715850" duration="17000" />
+      <workItem from="1538514992891" duration="5378000" />
+      <workItem from="1538557049821" duration="19961000" />
+      <workItem from="1538644251132" duration="11096000" />
+      <workItem from="1538676635593" duration="6396000" />
+      <workItem from="1538736162814" duration="18583000" />
+      <workItem from="1538831900521" duration="6032000" />
+      <workItem from="1538844430831" duration="24000" />
+      <workItem from="1538844472971" duration="713000" />
+      <workItem from="1538846397946" duration="246000" />
+      <workItem from="1538846701364" duration="140000" />
+      <workItem from="1538846855203" duration="75000" />
+      <workItem from="1538846943561" duration="663000" />
+      <workItem from="1538847635272" duration="328000" />
+      <workItem from="1538848001984" duration="1492000" />
+      <workItem from="1538849640824" duration="38359000" />
+      <workItem from="1538990828847" duration="1871000" />
+      <workItem from="1539008110995" duration="16323000" />
+      <workItem from="1539114975946" duration="61000" />
+      <workItem from="1539167691890" duration="717000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="617442000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.20080863" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3295302" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32885906" />
+      <window_info id="Structure" order="1" sideWeight="0.502" side_tool="true" weight="0.3295302" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39757413" />
+      <window_info anchor="bottom" id="Log4jMonitor" order="11" weight="0.32884097" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.14690027" />
+      <window_info id="simpleUML" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32884097" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32614556" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" weight="0.23989218" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32884097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24630873" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32614556" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="8" sideWeight="0.498" side_tool="true" weight="0.3295302" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32614556" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/SortDrugsByName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="34" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/Specification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/UserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/2c6CTuaSyhY.jpg" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/peace_admin.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/DrugType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/filters/LoginFilter.java" />
+    <entry file="file://$PROJECT_DIR$/web/styles/index_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/admin_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/UserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractSubstanceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2320">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/EntityFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/OrderItemFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractOrderItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Recipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Substance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="129" column="6" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="352" selection-start-line="352" selection-end-line="352" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/OrderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/drugs_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/DrugFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2460">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/client_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/drugs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2752">
+          <caret line="170" column="91" selection-start-line="170" selection-start-column="91" selection-end-line="170" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/AbstractEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractDrugDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="69" column="43" lean-forward="true" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/client/client.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="175" column="7" lean-forward="true" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="65" lean-forward="true" selection-start-column="65" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="199" column="28" lean-forward="true" selection-start-line="199" selection-start-column="28" selection-end-line="199" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/3_init_tables.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="89" lean-forward="true" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractDBConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractProgramConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Drug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3460">
+          <caret line="177" column="69" selection-start-line="177" selection-start-column="69" selection-end-line="177" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/DrugDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7160">
+          <caret line="373" selection-start-line="373" selection-end-line="373" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/SubstanceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3200">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5940">
+          <caret line="310" column="20" selection-start-line="310" selection-start-column="20" selection-end-line="310" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractSQLQueries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3460">
+          <caret line="173" column="65" selection-start-line="173" selection-start-column="65" selection-end-line="173" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractOrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderItemDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/servlets/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="627" column="7" lean-forward="true" selection-start-line="627" selection-start-column="7" selection-end-line="627" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>web:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>dom4jrrrrr</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Online-pharmacy</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31152633" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>javax.servlet.jsp.jstl-api-1.2.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>
