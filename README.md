@@ -1,3 +1,2 @@
-# Final_Project
-# Final_Project
-# Final-Project
+# Online-pharmacy
+Online-pharmacy - это онлайн-аптека, с простым в освоении интерфейсом, которая предназначена для быстрой покупки лекарств.
