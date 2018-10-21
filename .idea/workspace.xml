@@ -6,7 +6,75 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a49a457c-16ee-498f-912a-d830a5dfd611" name="Default" comment="" />
+    <list default="true" id="a49a457c-16ee-498f-912a-d830a5dfd611" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_servlet_jsp_jstl_api_1_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_jsp_jstl_api_1_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online-pharmacy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Online-pharmacy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/2_create_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/2_create_database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/3_init_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/3_init_tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/DrugDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/DrugDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderItemDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/SubstanceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/SubstanceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractDrugDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractDrugDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractOrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractOrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractOrderItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractOrderItemDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractSubstanceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractSubstanceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/pool/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/pool/ConnectionPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/pool/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/pool/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/email/SendingEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/email/SendingEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/email/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/email/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/AbstractEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Drug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Drug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Substance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Substance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/exceptions/ApplicationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/exceptions/ApplicationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/exceptions/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/exceptions/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/DrugFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/DrugFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/EntityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/EntityFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/OrderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/OrderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/OrderItemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/OrderItemFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/UserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/UserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractDBConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractDBConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractProgramConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractProgramConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractSQLQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractSQLQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/servlets/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/servlets/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/SortDrugsByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/SortDrugsByName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/SortDrugsByPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/SortDrugsByPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/factorytests/DrugFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/factorytests/DrugFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/factorytests/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/factorytests/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/orders.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/orders.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/client/client.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/client/client.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/client/code.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/client/code.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/pharm/drugs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/pharm/drugs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/pharm/pharm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/pharm/pharm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/logs/log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/logs/log4j2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/admin_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/admin_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/cart_products_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/cart_products_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/client_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/client_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/code_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/code_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/drugs_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/drugs_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/index_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/orders_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/orders_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/pharm_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/pharm_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/table_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/table_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/users_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/users_style.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,67 +109,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AbstractSQLQueries.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractSQLQueries.java">
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3460">
-              <caret line="173" column="65" selection-start-line="173" selection-start-column="65" selection-end-line="173" selection-end-column="65" />
+            <state relative-caret-position="160">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/UserDao.java">
+      <file leaf-file-name="tests.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tests/tests.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5940">
-              <caret line="310" column="20" selection-start-line="310" selection-start-column="20" selection-end-line="310" selection-end-column="20" />
+            <state relative-caret-position="120">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/factorytests/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrugFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/DrugFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrugFactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/factorytests/DrugFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3120">
-              <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderItemDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderItemDao.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="SubstanceDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/SubstanceDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3200">
-              <caret line="174" selection-start-line="174" selection-end-line="174" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Drug.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Drug.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3460">
-              <caret line="177" column="69" selection-start-line="177" selection-start-column="69" selection-end-line="177" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/servlets/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="627" column="7" lean-forward="true" selection-start-line="627" selection-start-column="7" selection-end-line="627" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -109,26 +160,44 @@
       <file leaf-file-name="DrugDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/DrugDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7160">
-              <caret line="373" selection-start-line="373" selection-end-line="373" />
+            <state relative-caret-position="680">
+              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractOrderDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractOrderDao.java">
+      <file leaf-file-name="Drug.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Drug.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="2520">
+              <caret line="129" column="78" selection-start-line="129" selection-start-column="78" selection-end-line="129" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractUserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractUserDao.java">
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+            <state relative-caret-position="220">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3_init_tables.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/3_init_tables.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/servlets/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9020">
+              <caret line="485" column="25" selection-start-line="485" selection-start-column="25" selection-end-line="485" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -138,14 +207,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Enum" />
-        <option value="package-info" />
         <option value="Interface" />
-        <option value="CSS File" />
-        <option value="Jsp File" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="FxmlFile" />
+        <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="package-info" />
+        <option value="Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -154,60 +224,63 @@
       <find>ole.</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/filters/package-info.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/UserRole.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/DrugType.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/doctor/doctor.jsp" />
-        <option value="$PROJECT_DIR$/sql/3_init_tables.sql" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/filters/AuthorizationFilter.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/filters/LoginFilter.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/package-info.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Entity.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/AbstractEntity.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/SortByName.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/Specification.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/SortDrugsByName.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/SortDrugsByPrice.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractProgramConstants.java" />
+        <option value="$PROJECT_DIR$/web/styles/code_style.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/client/code.jsp" />
         <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractDao.java" />
-        <option value="$PROJECT_DIR$/web/styles/index_style.css" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/DrugFactory.java" />
-        <option value="$PROJECT_DIR$/web/styles/admin_style.css" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/UserFactory.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/users.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractSubstanceDao.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/EntityFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/OrderItemFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/OrderFactory.java" />
         <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractOrderItemDao.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Drug.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Recipe.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Substance.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Order.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/OrderItem.java" />
-        <option value="$PROJECT_DIR$/web/styles/drugs_style.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/drugs.jsp" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/AbstractEntity.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin.jsp" />
-        <option value="$PROJECT_DIR$/web/js/main.js" />
-        <option value="$PROJECT_DIR$/web/styles/client_style.css" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractDrugDao.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/client/client.jsp" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractSQLQueries.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/DrugDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractOrderDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractSubstanceDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/pool/ConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/pool/package-info.java" />
         <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderItemDao.java" />
         <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/SubstanceDao.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/styles/pharm_style.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/pharm/drugs.jsp" />
+        <option value="$PROJECT_DIR$/web/styles/drugs_style.css" />
+        <option value="$PROJECT_DIR$/web/styles/orders_style.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/pharm/pharm.jsp" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractDrugDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractDBConstant.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/DrugDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/email/SendingEmail.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/AbstractEntity.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Order.java" />
         <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractUserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractSQLQuery.java" />
         <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractOrderDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/OrderFactory.java" />
         <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderDao.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Recipe.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Substance.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/exceptions/ApplicationException.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/DrugFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/EntityFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/OrderItemFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/SortDrugsByName.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/SortDrugsByPrice.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractProgramConstant.java" />
+        <option value="$PROJECT_DIR$/web/log.txt" />
+        <option value="$PROJECT_DIR$/web/logs/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/tests/package-info.java" />
+        <option value="$PROJECT_DIR$/sql/3_init_tables.sql" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/logs/log4j2.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/log4j2.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/servlets/Controller.java" />
+        <option value="$PROJECT_DIR$/src/tests/factorytests/package-info.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/FactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/factorytests/FactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Drug.java" />
+        <option value="$PROJECT_DIR$/src/tests/factorytests/DrugFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/tests.xml" />
       </list>
     </option>
   </component>
@@ -242,16 +315,16 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1060" />
+    <option name="x" value="-15" />
+    <option name="width" value="3875" />
+    <option name="height" value="2075" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,14 +360,6 @@
               <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="onlinepharmacy" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="onlinepharmacy" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -309,68 +374,31 @@
               <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="onlinepharmacy" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="onlinepharmacy" type="462c0819:PsiDirectoryNode" />
               <item name="servlets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Online-pharmacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online-pharmacy" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,7 +406,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar!/" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/testng.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -387,8 +418,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.epam.onlinepharmacy.factory" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\Online-pharmacy\web\WEB-INF" />
+      <recent name="D:\IdeaProjects\Online-pharmacy\web\WEB-INF\logs" />
+      <recent name="D:\IdeaProjects\Online-pharmacy\web\logs" />
+      <recent name="D:\IdeaProjects\Online-pharmacy\web" />
+      <recent name="D:\IdeaProjects\Online-pharmacy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -403,7 +444,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.DrugFactoryTest.testCreateEntity1">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -422,6 +463,35 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="DrugFactoryTest.testCreateEntity1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Online-pharmacy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.factorytests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="tests.factorytests" />
+      <option name="MAIN_CLASS_NAME" value="tests.factorytests.DrugFactoryTest" />
+      <option name="METHOD_NAME" value="testCreateEntity1" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -446,6 +516,7 @@
       <listeners />
     </configuration>
     <configuration name="Tomcat 9.0.8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dlog4j2.configurationFile=File:///$PROJECT_DIR$/web/WEB-INF/log4j2.xml" />
       <deployment>
         <artifact name="web:war exploded">
           <settings>
@@ -515,6 +586,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 9.0.8" />
+      <item itemvalue="TestNG.DrugFactoryTest.testCreateEntity1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.DrugFactoryTest.testCreateEntity1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -695,11 +775,55 @@
       <workItem from="1539008110995" duration="16323000" />
       <workItem from="1539114975946" duration="61000" />
       <workItem from="1539167691890" duration="717000" />
+      <workItem from="1539170758374" duration="503000" />
+      <workItem from="1539171850232" duration="872000" />
+      <workItem from="1539186795663" duration="22000" />
+      <workItem from="1539186868432" duration="395000" />
+      <workItem from="1539187392650" duration="283000" />
+      <workItem from="1539187686132" duration="77000" />
+      <workItem from="1539187970755" duration="7000" />
+      <workItem from="1539188057258" duration="3701000" />
+      <workItem from="1539255531727" duration="7000" />
+      <workItem from="1539256140329" duration="12056000" />
+      <workItem from="1539293068607" duration="5869000" />
+      <workItem from="1539350866619" duration="18000" />
+      <workItem from="1539352297314" duration="17786000" />
+      <workItem from="1539418990586" duration="21570000" />
+      <workItem from="1539519720318" duration="2329000" />
+      <workItem from="1539522447877" duration="17820000" />
+      <workItem from="1539552945138" duration="2006000" />
+      <workItem from="1539594586664" duration="2561000" />
+      <workItem from="1539625145847" duration="10208000" />
+      <workItem from="1539677335041" duration="4082000" />
+      <workItem from="1539683290710" duration="10451000" />
+      <workItem from="1539771191904" duration="7537000" />
+      <workItem from="1539859458815" duration="3297000" />
+      <workItem from="1539863208795" duration="42614000" />
+      <workItem from="1540020041337" duration="21812000" />
+      <workItem from="1540052193834" duration="11107000" />
+      <workItem from="1540112326377" duration="11580000" />
+      <workItem from="1540128183426" duration="1183000" />
+      <workItem from="1540129623848" duration="2725000" />
+      <workItem from="1540135874369" duration="2390000" />
+      <workItem from="1540151932216" duration="2199000" />
+      <workItem from="1540154345096" duration="2813000" />
+      <workItem from="1540157474086" duration="6000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="DrugFactoryTest_testCreateEntity1 - 2018.10.22 at 00h 08m 44s.xml">
+      <configuration name="DrugFactoryTest.testCreateEntity1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DrugFactoryTest_testCreateEntity1 - 2018.10.22 at 00h 13m 43s.xml">
+      <configuration name="DrugFactoryTest.testCreateEntity1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DrugFactoryTest_testCreateEntity1 - 2018.10.22 at 00h 18m 32s.xml">
+      <configuration name="DrugFactoryTest.testCreateEntity1" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="617442000" />
+    <option name="totallyTimeSpent" value="839328000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -711,40 +835,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.20080863" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3295302" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32885906" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32885906" />
       <window_info id="Structure" order="1" sideWeight="0.502" side_tool="true" weight="0.3295302" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39757413" />
-      <window_info anchor="bottom" id="Log4jMonitor" order="11" weight="0.32884097" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.14690027" />
+      <window_info anchor="bottom" id="Log4jMonitor" order="14" weight="0.3275862" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.14690027" />
       <window_info id="simpleUML" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32884097" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32859176" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32614556" />
-      <window_info anchor="bottom" id="CheckStyle" order="9" weight="0.23989218" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32859176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36984354" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" weight="0.2413793" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32884097" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24630873" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2266935" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32614556" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="8" sideWeight="0.498" side_tool="true" weight="0.3295302" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32614556" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3257468" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32614556" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -756,347 +879,488 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="16" />
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/SortDrugsByName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="34" selection-end-column="42" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/images/peace_admin.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/Specification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/images/shopping_cart.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/sorting/package-info.java">
+    <entry file="file://$PROJECT_DIR$/web/images/plus.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/users.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/UserRole.java">
+    <entry file="file://$PROJECT_DIR$/web/styles/admin_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/package-info.java">
+    <entry file="file://$PROJECT_DIR$/web/styles/cart_products_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/client_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/code_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/drugs_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/index_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/orders_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/pharm_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/table_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/users_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-893">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/orders.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1013" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/client/cart_products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/client/client.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/client/code.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/pharm/pharm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="40">
+            <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/log4j2.xml" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/pharm/drugs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/log.txt" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/log.txt" />
+    <entry file="file://$PROJECT_DIR$/web/log.txt" />
+    <entry file="file://$PROJECT_DIR$/web/logs/log.txt" />
+    <entry file="file://$PROJECT_DIR$/uml/Online-pharmacy.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="1462.5" y="246.0">com.epam.onlinepharmacy.entity.Drug</node>
+            <node x="0.0" y="834.0">com.epam.onlinepharmacy.database.dao.AbstractSubstanceDao</node>
+            <node x="1654.0" y="1487.0">com.epam.onlinepharmacy.factory.OrderItemFactory</node>
+            <node x="259.0" y="768.0">com.epam.onlinepharmacy.database.dao.AbstractUserDao</node>
+            <node x="784.9999999999999" y="1487.0">com.epam.onlinepharmacy.factory.UserFactory</node>
+            <node x="1143.0" y="1057.0">com.epam.onlinepharmacy.database.OrderDao</node>
+            <node x="2123.5" y="0.0">com.epam.onlinepharmacy.main.AbstractSQLQuery</node>
+            <node x="1196.0" y="1342.0">com.epam.onlinepharmacy.factory.EntityFactory</node>
+            <node x="542.0" y="834.0">com.epam.onlinepharmacy.database.dao.AbstractOrderItemDao</node>
+            <node x="569.5" y="367.0">com.epam.onlinepharmacy.database.dao.AbstractDao</node>
+            <node x="161.5" y="1923.0">com.epam.onlinepharmacy.sorting.Specification</node>
+            <node x="1223.5" y="323.0">com.epam.onlinepharmacy.entity.Order</node>
+            <node x="259.0" y="1024.0">com.epam.onlinepharmacy.database.UserDao</node>
+            <node x="1202.0" y="1923.0">com.epam.onlinepharmacy.exceptions.ApplicationException</node>
+            <node x="1676.5" y="356.0">com.epam.onlinepharmacy.entity.OrderItem</node>
+            <node x="1365.0" y="1487.0">com.epam.onlinepharmacy.factory.DrugFactory</node>
+            <node x="0.0" y="1090.0">com.epam.onlinepharmacy.database.SubstanceDao</node>
+            <node x="1012.5" y="378.5">com.epam.onlinepharmacy.entity.Recipe</node>
+            <node x="816.0" y="1923.0">com.epam.onlinepharmacy.main.AbstractDBConstant</node>
+            <node x="1047.0" y="1923.0">com.epam.onlinepharmacy.main.UserRole</node>
+            <node x="280.0" y="1342.0">com.epam.onlinepharmacy.serverpart.servlets.Controller</node>
+            <node x="801.5" y="279.0">com.epam.onlinepharmacy.entity.User</node>
+            <node x="829.0" y="779.0">com.epam.onlinepharmacy.database.dao.AbstractDrugDao</node>
+            <node x="323.0" y="2024.0">com.epam.onlinepharmacy.sorting.SortDrugsByPrice</node>
+            <node x="829.0" y="1035.0">com.epam.onlinepharmacy.database.DrugDao</node>
+            <node x="0.0" y="1342.0">com.epam.onlinepharmacy.main.AbstractProgramConstant</node>
+            <node x="1237.5" y="0.0">com.epam.onlinepharmacy.entity.AbstractEntity</node>
+            <node x="1996.0" y="1342.0">com.epam.onlinepharmacy.database.pool.ConnectionPool</node>
+            <node x="671.0" y="1923.0">com.epam.onlinepharmacy.main.DrugType</node>
+            <node x="1072.0" y="1487.0">com.epam.onlinepharmacy.factory.OrderFactory</node>
+            <node x="542.0" y="1090.0">com.epam.onlinepharmacy.database.OrderItemDao</node>
+            <node x="1530.0" y="1923.0">com.epam.onlinepharmacy.email.SendingEmail</node>
+            <node x="1887.5" y="378.0">com.epam.onlinepharmacy.entity.Substance</node>
+            <node x="0.0" y="2024.0">com.epam.onlinepharmacy.sorting.SortDrugsByName</node>
+            <node x="1143.0" y="801.0">com.epam.onlinepharmacy.database.dao.AbstractOrderDao</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.epam.onlinepharmacy.entity.Recipe" target="com.epam.onlinepharmacy.entity.AbstractEntity">
+              <point x="0.0" y="-103.5" />
+              <point x="1108.0" y="226.0" />
+              <point x="1305.7142857142858" y="226.0" />
+              <point x="-27.28571428571422" y="93.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.sorting.SortDrugsByPrice" target="com.epam.onlinepharmacy.sorting.Specification">
+              <point x="0.0" y="-48.5" />
+              <point x="474.5" y="1999.0" />
+              <point x="388.75" y="1999.0" />
+              <point x="75.75" y="25.5" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.database.UserDao" target="com.epam.onlinepharmacy.database.dao.AbstractUserDao">
+              <point x="0.0" y="-136.5" />
+              <point x="0.0" y="103.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.entity.Order" target="com.epam.onlinepharmacy.entity.AbstractEntity">
+              <point x="0.0" y="-159.0" />
+              <point x="0.0" y="93.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.entity.Substance" target="com.epam.onlinepharmacy.entity.AbstractEntity">
+              <point x="0.0" y="-104.0" />
+              <point x="1983.0" y="206.0" />
+              <point x="1414.857142857143" y="206.0" />
+              <point x="81.85714285714289" y="93.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.database.OrderDao" target="com.epam.onlinepharmacy.database.dao.AbstractOrderDao">
+              <point x="0.0" y="-103.5" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.database.dao.AbstractSubstanceDao" target="com.epam.onlinepharmacy.database.dao.AbstractDao">
+              <point x="0.0" y="-37.0" />
+              <point x="119.5" y="738.0" />
+              <point x="590.7" y="738.0" />
+              <point x="-84.79999999999995" y="115.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.database.dao.AbstractOrderDao" target="com.epam.onlinepharmacy.database.dao.AbstractDao">
+              <point x="0.0" y="-70.0" />
+              <point x="1265.5" y="738.0" />
+              <point x="760.3000000000001" y="738.0" />
+              <point x="84.80000000000007" y="115.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.factory.OrderItemFactory" target="com.epam.onlinepharmacy.factory.EntityFactory">
+              <point x="-1.1368683772161603E-13" y="-70.5" />
+              <point x="1802.4999999999998" y="1457.0" />
+              <point x="1472.5" y="1457.0" />
+              <point x="118.5" y="47.5" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.sorting.SortDrugsByName" target="com.epam.onlinepharmacy.sorting.Specification">
+              <point x="0.0" y="-48.5" />
+              <point x="151.5" y="1999.0" />
+              <point x="237.25" y="1999.0" />
+              <point x="-75.75" y="25.5" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.factory.OrderFactory" target="com.epam.onlinepharmacy.factory.EntityFactory">
+              <point x="0.0" y="-70.5" />
+              <point x="1208.5" y="1467.0" />
+              <point x="1314.5" y="1467.0" />
+              <point x="-39.5" y="47.5" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.database.dao.AbstractUserDao" target="com.epam.onlinepharmacy.database.dao.AbstractDao">
+              <point x="0.0" y="-103.0" />
+              <point x="390.5" y="748.0" />
+              <point x="633.1" y="748.0" />
+              <point x="-42.39999999999998" y="115.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.database.dao.AbstractDrugDao" target="com.epam.onlinepharmacy.database.dao.AbstractDao">
+              <point x="0.0" y="-92.0" />
+              <point x="976.0" y="748.0" />
+              <point x="717.9000000000001" y="748.0" />
+              <point x="42.40000000000009" y="115.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.database.dao.AbstractDao" target="com.epam.onlinepharmacy.entity.AbstractEntity">
+              <point x="0.0" y="-115.0" />
+              <point x="675.5" y="206.0" />
+              <point x="1251.142857142857" y="206.0" />
+              <point x="-81.85714285714289" y="93.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.database.OrderItemDao" target="com.epam.onlinepharmacy.database.dao.AbstractOrderItemDao">
+              <point x="0.0" y="-70.5" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.entity.User" target="com.epam.onlinepharmacy.entity.AbstractEntity">
+              <point x="0.0" y="-203.0" />
+              <point x="897.0" y="216.0" />
+              <point x="1278.4285714285713" y="216.0" />
+              <point x="-54.57142857142867" y="93.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.database.DrugDao" target="com.epam.onlinepharmacy.database.dao.AbstractDrugDao">
+              <point x="0.0" y="-125.5" />
+              <point x="0.0" y="92.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.entity.OrderItem" target="com.epam.onlinepharmacy.entity.AbstractEntity">
+              <point x="0.0" y="-126.0" />
+              <point x="1772.0" y="216.0" />
+              <point x="1387.5714285714287" y="216.0" />
+              <point x="54.57142857142867" y="93.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.factory.DrugFactory" target="com.epam.onlinepharmacy.factory.EntityFactory">
+              <point x="0.0" y="-70.5" />
+              <point x="1499.5" y="1467.0" />
+              <point x="1393.5" y="1467.0" />
+              <point x="39.5" y="47.5" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.database.dao.AbstractOrderItemDao" target="com.epam.onlinepharmacy.database.dao.AbstractDao">
+              <point x="0.0" y="-37.0" />
+              <point x="0.0" y="115.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.database.SubstanceDao" target="com.epam.onlinepharmacy.database.dao.AbstractSubstanceDao">
+              <point x="0.0" y="-70.5" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.entity.Drug" target="com.epam.onlinepharmacy.entity.AbstractEntity">
+              <point x="0.0" y="-236.0" />
+              <point x="1559.5" y="226.0" />
+              <point x="1360.2857142857142" y="226.0" />
+              <point x="27.28571428571422" y="93.0" />
+            </edge>
+            <edge source="com.epam.onlinepharmacy.factory.UserFactory" target="com.epam.onlinepharmacy.factory.EntityFactory">
+              <point x="0.0" y="-70.5" />
+              <point x="918.4999999999999" y="1457.0" />
+              <point x="1235.5" y="1457.0" />
+              <point x="-118.5" y="47.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="760.0" />
+          <SelectedNodes>
+            <node>com.epam.onlinepharmacy.entity.User</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uml/Online-pharmacy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/web_war_exploded/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/epam/onlinepharmacy/factory/DrugFactory.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/epam/onlinepharmacy/serverpart/servlets/Controller.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/images/2c6CTuaSyhY.jpg" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
+    <entry file="file://$PROJECT_DIR$/sql/3_init_tables.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/images/peace_admin.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/DrugType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/filters/LoginFilter.java" />
-    <entry file="file://$PROJECT_DIR$/web/styles/index_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/admin_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/UserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractSubstanceDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2320">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/EntityFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/OrderItemFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractOrderItemDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Recipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Substance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="129" column="6" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="352" selection-start-line="352" selection-end-line="352" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/OrderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
+        <state relative-caret-position="360">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/OrderItem.java">
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/servlets/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="9020">
+          <caret line="485" column="25" selection-start-line="485" selection-start-column="25" selection-end-line="485" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/drugs_style.css">
+    <entry file="file://$PROJECT_DIR$/src/tests/factorytests/DrugFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="40">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/factorytests/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/factory/DrugFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2460">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        <state relative-caret-position="580">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/main.js">
+    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/client_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/drugs.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2752">
-          <caret line="170" column="91" selection-start-line="170" selection-start-column="91" selection-end-line="170" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/AbstractEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractDrugDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="69" column="43" lean-forward="true" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/client/client.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="175" column="7" lean-forward="true" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="65" lean-forward="true" selection-start-column="65" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="199" column="28" lean-forward="true" selection-start-line="199" selection-start-column="28" selection-end-line="199" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/3_init_tables.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="89" lean-forward="true" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractDBConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractProgramConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+        <state relative-caret-position="220">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/entity/Drug.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3460">
-          <caret line="177" column="69" selection-start-line="177" selection-start-column="69" selection-end-line="177" selection-end-column="69" />
+        <state relative-caret-position="2520">
+          <caret line="129" column="78" selection-start-line="129" selection-start-column="78" selection-end-line="129" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/DrugDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7160">
-          <caret line="373" selection-start-line="373" selection-end-line="373" />
+        <state relative-caret-position="680">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/SubstanceDao.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/factorytests/DrugFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3200">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5940">
-          <caret line="310" column="20" selection-start-line="310" selection-start-column="20" selection-end-line="310" selection-end-column="20" />
+        <state relative-caret-position="780">
+          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/main/AbstractSQLQueries.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/tests.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3460">
-          <caret line="173" column="65" selection-start-line="173" selection-start-column="65" selection-end-line="173" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/dao/AbstractOrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/database/OrderItemDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/onlinepharmacy/serverpart/servlets/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="627" column="7" lean-forward="true" selection-start-line="627" selection-start-column="7" selection-end-line="627" selection-end-column="7" />
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -1179,7 +1443,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>javax.servlet.jsp.jstl-api-1.2.1</last-edited>
+          <last-edited>testng</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

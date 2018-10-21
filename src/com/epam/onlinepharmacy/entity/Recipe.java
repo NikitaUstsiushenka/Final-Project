@@ -56,10 +56,10 @@ public final class Recipe extends AbstractEntity {
     @Override
     public int hashCode() {
 
-        return super.hashCode() + (this.count != 0 ? this.count : 10)
-                * (this.drugId != 0 ? this.drugId : 10)
-                * (this.doctorId != 0 ? this.doctorId : 10)
-                * (this.clientId != 0 ? this.clientId : 10);
+        return super.hashCode() + (this.count != 0 ? this.count : 1)
+                + (this.drugId != 0 ? this.drugId : 1)
+                + (this.doctorId != 0 ? this.doctorId : 1)
+                + (this.clientId != 0 ? this.clientId : 1);
 
     }
 

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1462.5" y="246.0">com.epam.onlinepharmacy.entity.Drug</node>
+    <node x="0.0" y="834.0">com.epam.onlinepharmacy.database.dao.AbstractSubstanceDao</node>
+    <node x="1654.0" y="1487.0">com.epam.onlinepharmacy.factory.OrderItemFactory</node>
+    <node x="259.0" y="768.0">com.epam.onlinepharmacy.database.dao.AbstractUserDao</node>
+    <node x="784.9999999999999" y="1487.0">com.epam.onlinepharmacy.factory.UserFactory</node>
+    <node x="1143.0" y="1057.0">com.epam.onlinepharmacy.database.OrderDao</node>
+    <node x="2123.5" y="0.0">com.epam.onlinepharmacy.main.AbstractSQLQuery</node>
+    <node x="1196.0" y="1342.0">com.epam.onlinepharmacy.factory.EntityFactory</node>
+    <node x="542.0" y="834.0">com.epam.onlinepharmacy.database.dao.AbstractOrderItemDao</node>
+    <node x="569.5" y="367.0">com.epam.onlinepharmacy.database.dao.AbstractDao</node>
+    <node x="161.5" y="1923.0">com.epam.onlinepharmacy.sorting.Specification</node>
+    <node x="1223.5" y="323.0">com.epam.onlinepharmacy.entity.Order</node>
+    <node x="259.0" y="1024.0">com.epam.onlinepharmacy.database.UserDao</node>
+    <node x="1202.0" y="1923.0">com.epam.onlinepharmacy.exceptions.ApplicationException</node>
+    <node x="1676.5" y="356.0">com.epam.onlinepharmacy.entity.OrderItem</node>
+    <node x="1365.0" y="1487.0">com.epam.onlinepharmacy.factory.DrugFactory</node>
+    <node x="0.0" y="1090.0">com.epam.onlinepharmacy.database.SubstanceDao</node>
+    <node x="1012.5" y="378.5">com.epam.onlinepharmacy.entity.Recipe</node>
+    <node x="816.0" y="1923.0">com.epam.onlinepharmacy.main.AbstractDBConstant</node>
+    <node x="1047.0" y="1923.0">com.epam.onlinepharmacy.main.UserRole</node>
+    <node x="280.0" y="1342.0">com.epam.onlinepharmacy.serverpart.servlets.Controller</node>
+    <node x="801.5" y="279.0">com.epam.onlinepharmacy.entity.User</node>
+    <node x="829.0" y="779.0">com.epam.onlinepharmacy.database.dao.AbstractDrugDao</node>
+    <node x="323.0" y="2024.0">com.epam.onlinepharmacy.sorting.SortDrugsByPrice</node>
+    <node x="829.0" y="1035.0">com.epam.onlinepharmacy.database.DrugDao</node>
+    <node x="0.0" y="1342.0">com.epam.onlinepharmacy.main.AbstractProgramConstant</node>
+    <node x="1237.5" y="0.0">com.epam.onlinepharmacy.entity.AbstractEntity</node>
+    <node x="1996.0" y="1342.0">com.epam.onlinepharmacy.database.pool.ConnectionPool</node>
+    <node x="671.0" y="1923.0">com.epam.onlinepharmacy.main.DrugType</node>
+    <node x="1072.0" y="1487.0">com.epam.onlinepharmacy.factory.OrderFactory</node>
+    <node x="542.0" y="1090.0">com.epam.onlinepharmacy.database.OrderItemDao</node>
+    <node x="1530.0" y="1923.0">com.epam.onlinepharmacy.email.SendingEmail</node>
+    <node x="1887.5" y="378.0">com.epam.onlinepharmacy.entity.Substance</node>
+    <node x="0.0" y="2024.0">com.epam.onlinepharmacy.sorting.SortDrugsByName</node>
+    <node x="1143.0" y="801.0">com.epam.onlinepharmacy.database.dao.AbstractOrderDao</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.epam.onlinepharmacy.entity.Recipe" target="com.epam.onlinepharmacy.entity.AbstractEntity">
+      <point x="0.0" y="-103.5" />
+      <point x="1108.0" y="226.0" />
+      <point x="1305.7142857142858" y="226.0" />
+      <point x="-27.28571428571422" y="93.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.sorting.SortDrugsByPrice" target="com.epam.onlinepharmacy.sorting.Specification">
+      <point x="0.0" y="-48.5" />
+      <point x="474.5" y="1999.0" />
+      <point x="388.75" y="1999.0" />
+      <point x="75.75" y="25.5" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.database.UserDao" target="com.epam.onlinepharmacy.database.dao.AbstractUserDao">
+      <point x="0.0" y="-136.5" />
+      <point x="0.0" y="103.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.entity.Order" target="com.epam.onlinepharmacy.entity.AbstractEntity">
+      <point x="0.0" y="-159.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.entity.Substance" target="com.epam.onlinepharmacy.entity.AbstractEntity">
+      <point x="0.0" y="-104.0" />
+      <point x="1983.0" y="206.0" />
+      <point x="1414.857142857143" y="206.0" />
+      <point x="81.85714285714289" y="93.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.database.OrderDao" target="com.epam.onlinepharmacy.database.dao.AbstractOrderDao">
+      <point x="0.0" y="-103.5" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.database.dao.AbstractSubstanceDao" target="com.epam.onlinepharmacy.database.dao.AbstractDao">
+      <point x="0.0" y="-37.0" />
+      <point x="119.5" y="738.0" />
+      <point x="590.7" y="738.0" />
+      <point x="-84.79999999999995" y="115.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.database.dao.AbstractOrderDao" target="com.epam.onlinepharmacy.database.dao.AbstractDao">
+      <point x="0.0" y="-70.0" />
+      <point x="1265.5" y="738.0" />
+      <point x="760.3000000000001" y="738.0" />
+      <point x="84.80000000000007" y="115.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.factory.OrderItemFactory" target="com.epam.onlinepharmacy.factory.EntityFactory">
+      <point x="-1.1368683772161603E-13" y="-70.5" />
+      <point x="1802.4999999999998" y="1457.0" />
+      <point x="1472.5" y="1457.0" />
+      <point x="118.5" y="47.5" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.sorting.SortDrugsByName" target="com.epam.onlinepharmacy.sorting.Specification">
+      <point x="0.0" y="-48.5" />
+      <point x="151.5" y="1999.0" />
+      <point x="237.25" y="1999.0" />
+      <point x="-75.75" y="25.5" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.factory.OrderFactory" target="com.epam.onlinepharmacy.factory.EntityFactory">
+      <point x="0.0" y="-70.5" />
+      <point x="1208.5" y="1467.0" />
+      <point x="1314.5" y="1467.0" />
+      <point x="-39.5" y="47.5" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.database.dao.AbstractUserDao" target="com.epam.onlinepharmacy.database.dao.AbstractDao">
+      <point x="0.0" y="-103.0" />
+      <point x="390.5" y="748.0" />
+      <point x="633.1" y="748.0" />
+      <point x="-42.39999999999998" y="115.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.database.dao.AbstractDrugDao" target="com.epam.onlinepharmacy.database.dao.AbstractDao">
+      <point x="0.0" y="-92.0" />
+      <point x="976.0" y="748.0" />
+      <point x="717.9000000000001" y="748.0" />
+      <point x="42.40000000000009" y="115.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.database.dao.AbstractDao" target="com.epam.onlinepharmacy.entity.AbstractEntity">
+      <point x="0.0" y="-115.0" />
+      <point x="675.5" y="206.0" />
+      <point x="1251.142857142857" y="206.0" />
+      <point x="-81.85714285714289" y="93.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.database.OrderItemDao" target="com.epam.onlinepharmacy.database.dao.AbstractOrderItemDao">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.entity.User" target="com.epam.onlinepharmacy.entity.AbstractEntity">
+      <point x="0.0" y="-203.0" />
+      <point x="897.0" y="216.0" />
+      <point x="1278.4285714285713" y="216.0" />
+      <point x="-54.57142857142867" y="93.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.database.DrugDao" target="com.epam.onlinepharmacy.database.dao.AbstractDrugDao">
+      <point x="0.0" y="-125.5" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.entity.OrderItem" target="com.epam.onlinepharmacy.entity.AbstractEntity">
+      <point x="0.0" y="-126.0" />
+      <point x="1772.0" y="216.0" />
+      <point x="1387.5714285714287" y="216.0" />
+      <point x="54.57142857142867" y="93.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.factory.DrugFactory" target="com.epam.onlinepharmacy.factory.EntityFactory">
+      <point x="0.0" y="-70.5" />
+      <point x="1499.5" y="1467.0" />
+      <point x="1393.5" y="1467.0" />
+      <point x="39.5" y="47.5" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.database.dao.AbstractOrderItemDao" target="com.epam.onlinepharmacy.database.dao.AbstractDao">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="115.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.database.SubstanceDao" target="com.epam.onlinepharmacy.database.dao.AbstractSubstanceDao">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.entity.Drug" target="com.epam.onlinepharmacy.entity.AbstractEntity">
+      <point x="0.0" y="-236.0" />
+      <point x="1559.5" y="226.0" />
+      <point x="1360.2857142857142" y="226.0" />
+      <point x="27.28571428571422" y="93.0" />
+    </edge>
+    <edge source="com.epam.onlinepharmacy.factory.UserFactory" target="com.epam.onlinepharmacy.factory.EntityFactory">
+      <point x="0.0" y="-70.5" />
+      <point x="918.4999999999999" y="1457.0" />
+      <point x="1235.5" y="1457.0" />
+      <point x="-118.5" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="565.5" y="845.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

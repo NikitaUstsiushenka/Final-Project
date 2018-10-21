@@ -1,8 +1,9 @@
 package com.epam.onlinepharmacy.factory;
 
+import com.epam.onlinepharmacy.database.DrugDao;
+import com.epam.onlinepharmacy.database.dao.AbstractDao;
 import com.epam.onlinepharmacy.entity.OrderItem;
 import com.epam.onlinepharmacy.exceptions.ApplicationException;
-import com.epam.onlinepharmacy.main.AbstractProgramConstants;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -43,9 +44,12 @@ public final class OrderItemFactory implements EntityFactory {
     @Override
     public OrderItem createEntity() {
 
-        LOGGER.log(Level.DEBUG, AbstractProgramConstants.ORDER_ITEM_CREATED);
+        final OrderItem orderItem = new OrderItem();
+        final String debugString = " Object " + orderItem + " created.";
 
-        return new OrderItem();
+        LOGGER.log(Level.DEBUG, debugString);
+
+        return orderItem;
 
     }
 
@@ -53,13 +57,15 @@ public final class OrderItemFactory implements EntityFactory {
      * {@inheritDoc}
      */
     @Override
-    public OrderItem createEntity(final HttpServletRequest request) {
+    public OrderItem createEntity(final HttpServletRequest request)
+            throws ApplicationException {
 
-        final OrderItem orderItem = new OrderItem();
+        final String debugString
+                = "Object OrderItem can't be created from request.";
 
-        LOGGER.log(Level.DEBUG, AbstractProgramConstants.ORDER_ITEM_CREATED);
+        LOGGER.log(Level.DEBUG, debugString);
 
-        return orderItem;
+        throw new ApplicationException();
 
     }
 
@@ -71,13 +77,18 @@ public final class OrderItemFactory implements EntityFactory {
             throws ApplicationException {
 
         final OrderItem orderItem = new OrderItem();
+        final String debugString1
+                = " Attribute is null in method createEntity(ResultSet).";
+        final String debugString2;
+        final AbstractDao dao = new DrugDao();
 
         if (resultSet != null) {
 
             try {
 
                 orderItem.setId(resultSet.getInt("id"));
-                orderItem.setDrugId(resultSet.getInt("drug_id"));
+                orderItem.setDrug(((DrugDao) dao).selectDrug(resultSet
+                        .getInt("drug_id")));
                 orderItem.setOrderId(resultSet.getInt("order_id"));
                 orderItem.setRecipeId(resultSet.getInt("recipe_id"));
                 orderItem.setCount(resultSet.getInt("count"));
@@ -87,10 +98,11 @@ public final class OrderItemFactory implements EntityFactory {
             }
 
         } else {
-            LOGGER.log(Level.DEBUG, AbstractProgramConstants.ATTRIBUTE_ERROR);
+            LOGGER.log(Level.DEBUG, debugString1);
         }
 
-        LOGGER.log(Level.DEBUG, AbstractProgramConstants.ORDER_ITEM_CREATED);
+        debugString2 = " Object " + orderItem + " created.";
+        LOGGER.log(Level.DEBUG, debugString2);
 
         return orderItem;
 

@@ -1,6 +1,5 @@
 package com.epam.onlinepharmacy.entity;
 
-import com.epam.onlinepharmacy.main.AbstractProgramConstants;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -30,7 +29,7 @@ public abstract class AbstractEntity {
 
     /**
      * Protected default constructor.
-     * */
+     */
     protected AbstractEntity() {
 
     }
@@ -109,8 +108,8 @@ public abstract class AbstractEntity {
      */
     public void setId(final Integer newId) {
 
-        final String debugString = getClass().getName()
-                + ": Attribute is null in method setId(Integer).";
+        final String debugString
+                = " Attribute is null in method setId(Integer).";
 
         if (newId != null) {
             this.id = newId;

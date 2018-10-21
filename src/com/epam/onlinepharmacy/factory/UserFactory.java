@@ -1,7 +1,6 @@
 package com.epam.onlinepharmacy.factory;
 
 import com.epam.onlinepharmacy.entity.User;
-import com.epam.onlinepharmacy.main.AbstractProgramConstants;
 import com.epam.onlinepharmacy.main.UserRole;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -43,7 +42,10 @@ public final class UserFactory implements EntityFactory {
     @Override
     public User createEntity() {
 
-        LOGGER.log(Level.DEBUG, AbstractProgramConstants.USER_CREATED);
+        final User user = new User();
+        final String debugString = " Object " + user + " created.";
+
+        LOGGER.log(Level.DEBUG, debugString);
 
         return new User();
 
@@ -56,6 +58,9 @@ public final class UserFactory implements EntityFactory {
     public User createEntity(final HttpServletRequest request) {
 
         final User user = new User();
+        final String debugString1 = " Attribute is null in method "
+                + "createEntity(HttpServletRequest).";
+        final String debugString2;
 
         if (request != null) {
 
@@ -66,10 +71,11 @@ public final class UserFactory implements EntityFactory {
             user.setCash(0);
 
         } else {
-            LOGGER.log(Level.DEBUG, AbstractProgramConstants.ATTRIBUTE_ERROR);
+            LOGGER.log(Level.DEBUG, debugString1);
         }
 
-        LOGGER.log(Level.DEBUG, AbstractProgramConstants.USER_CREATED);
+        debugString2 = " Object " + user + " created.";
+        LOGGER.log(Level.DEBUG, debugString2);
 
         return user;
 
@@ -82,6 +88,10 @@ public final class UserFactory implements EntityFactory {
     public User createEntity(final ResultSet resultSet) {
 
         final User user = new User();
+        final String debugString1
+                = " Attribute is null in method createEntity(ResultSet).";
+        final String debugString2 = " User role is incorrect.";
+        final String debugString3;
 
         if (resultSet != null) {
 
@@ -111,23 +121,22 @@ public final class UserFactory implements EntityFactory {
                         user.setRole(UserRole.PHARMACIST);
                         break;
                     default:
-                        LOGGER.log(Level.DEBUG,
-                                AbstractProgramConstants
-                                        .ROLE_IS_INCORRECT);
+                        LOGGER.log(Level.DEBUG, debugString2);
                         break;
 
                 }
             } catch (SQLException e) {
 
-                LOGGER.log(Level.DEBUG, AbstractProgramConstants.ATTRIBUTE_ERROR);
+                LOGGER.log(Level.DEBUG, debugString1);
                 e.printStackTrace();
 
             }
         } else {
-            LOGGER.log(Level.DEBUG, AbstractProgramConstants.ATTRIBUTE_ERROR);
+            LOGGER.log(Level.DEBUG, debugString1);
         }
 
-        LOGGER.log(Level.DEBUG, AbstractProgramConstants.USER_CREATED);
+        debugString3 = " Object " + user + " created.";
+        LOGGER.log(Level.DEBUG, debugString3);
 
         return user;
 

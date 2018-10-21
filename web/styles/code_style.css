@@ -1,0 +1,42 @@
+header {
+
+    display: block;
+
+}
+
+body {
+
+    overflow-y: auto;
+    background-color: aliceblue;
+
+}
+
+.form-control {
+
+    width: 250px;
+
+}
+
+#input_code {
+
+    top: 20px;
+    left: 650px;
+    position: absolute;
+
+}
+
+#button_enter {
+
+    top: 80px;
+    left: 650px;
+    position: absolute;
+
+}
+
+#button_back {
+
+    top: 80px;
+    left: 720px;
+    position: absolute;
+
+}

@@ -1,5 +1,4 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="com.epam.onlinepharmacy.entity.User" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,8 +7,10 @@
     <c:url var="style_url_1" value="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="${style_url_1}"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <c:url var="style_url_2" value="${pageContext.request.contextPath}/styles/client_style.css"/>
+    <c:url var="style_url_2" value="/styles/client_style.css"/>
     <link rel="stylesheet" href="${style_url_2}">
+    <c:url var="style_url_3" value="/styles/table_style.css"/>
+    <link rel="stylesheet" href="${style_url_3}">
     <c:url var="image_url" value="/images/cross.png"/>
     <link rel="icon" href="${image_url}" type="images/x-icon">
     <title><c:out value="Online-pharmacy"/></title>
@@ -88,7 +89,17 @@
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <button class="dropdown-item" data-toggle="modal" data-target="#modal_balance"><c:out
                         value="Cash: ${cash} BR"/></button>
-                <button class="dropdown-item"><c:out value="Cart products"/></button>
+                <form method="post" action="pharmacy">
+                    <input type="hidden" name="action" value="cart_products">
+                    <button class="dropdown-item">
+                        <c:if test="${not empty order}">
+                            <c:out value="Cart products: ${order.getOrderItems().size()}"/>
+                        </c:if>
+                        <c:if test="${empty order}">
+                            <c:out value="Cart products: 0"/>
+                        </c:if>
+                    </button>
+                </form>
                 <button data-toggle="modal" data-target="#modal_order" class="dropdown-item"><c:out
                         value="Buy"/></button>
                 <form method="post" action="pharmacy">
@@ -178,6 +189,11 @@
 <script src="${script_url_1}"></script>
 <c:url var="javascriptURL" value="/js/main.js"/>
 <script type="text/javascript" src="${javascriptURL}"></script>
+<c:if test="${message != null}">
+    <script>
+        showMessage("", "${message}");
+    </script>
+</c:if>
 <c:if test="${errorMessage != null}">
     <script>
         showMessage("Attention", "${errorMessage}");

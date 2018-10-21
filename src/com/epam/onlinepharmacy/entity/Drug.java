@@ -1,6 +1,5 @@
 package com.epam.onlinepharmacy.entity;
 
-import com.epam.onlinepharmacy.main.AbstractProgramConstants;
 import com.epam.onlinepharmacy.main.DrugType;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -128,12 +127,12 @@ public final class Drug extends AbstractEntity {
                 result = false;
             } else {
                 result = (getId().equals(drug.getId())
-                        && (this.drugName != null && this.drugName.equals(drug
-                        .getDrugName())) && (this.company != null
-                        && this.company.equals(drug.getCompany()))
-                        && (this.companyCountry != null && this.companyCountry
+                        && (this.drugName == null || this.drugName.equals(drug
+                        .getDrugName())) && (this.company == null
+                        || this.company.equals(drug.getCompany()))
+                        && (this.companyCountry == null || this.companyCountry
                         .equals(drug.getCompanyCountry())) && (this.substance
-                        != null && this.substance.equals(drug.getSubstance()))
+                        == null || this.substance.equals(drug.getSubstance()))
                         && this.dosage == drug.getDosage() && this.price
                         == drug.getPrice() && this.drugsCount
                         == drug.getDrugsCount()
@@ -174,8 +173,8 @@ public final class Drug extends AbstractEntity {
      */
     public void setDrugName(final String newDrugName) {
 
-        final String debugString = getClass().getName()
-                + ": Attribute is null in method setDrugName(String).";
+        final String debugString
+                = " Attribute is null in method setDrugName(String).";
 
         if (newDrugName != null) {
             this.drugName = newDrugName;
@@ -211,8 +210,8 @@ public final class Drug extends AbstractEntity {
      */
     public void setCompany(final String newCompany) {
 
-        final String debugString = getClass().getName()
-                + ": Attribute is null in method setCompany(String).";
+        final String debugString
+                = " Attribute is null in method setCompany(String).";
 
         if (newCompany != null) {
             this.company = newCompany;
@@ -248,8 +247,8 @@ public final class Drug extends AbstractEntity {
      */
     public void setCompanyCountry(final String newCompanyCountry) {
 
-        final String debugString = getClass().getName()
-                + ": Attribute is null in method setCompanyCountry(String).";
+        final String debugString
+                = " Attribute is null in method setCompanyCountry(String).";
 
         if (newCompanyCountry != null) {
             this.companyCountry = newCompanyCountry;
@@ -285,8 +284,8 @@ public final class Drug extends AbstractEntity {
      */
     public void setSubstance(final Substance newSubstance) {
 
-        final String debugString = getClass().getName()
-                + ": Attribute is null in method setSubstance(Substance)";
+        final String debugString
+                = " Attribute is null in method setSubstance(Substance)";
 
         if (newSubstance != null) {
             this.substance = newSubstance;
@@ -380,8 +379,8 @@ public final class Drug extends AbstractEntity {
      */
     public void setType(final DrugType newType) {
 
-        final String debugString = getClass().getName()
-                + ": Attribute is null in method setType(DrugType).";
+        final String debugString
+                = " Attribute is null in method setType(DrugType).";
 
         if (newType != null) {
             this.type = newType;
@@ -407,7 +406,7 @@ public final class Drug extends AbstractEntity {
      *
      * @param newRecipe new value of the required recipe
      */
-    public void setRecipe(boolean newRecipe) {
+    public void setRecipe(final boolean newRecipe) {
 
         this.recipe = newRecipe;
 

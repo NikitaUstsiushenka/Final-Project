@@ -1,7 +1,7 @@
 package com.epam.onlinepharmacy.database.pool;
 
 import com.epam.onlinepharmacy.exceptions.ApplicationException;
-import com.epam.onlinepharmacy.main.AbstractDBConstants;
+import com.epam.onlinepharmacy.main.AbstractDBConstant;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -46,7 +46,7 @@ public final class ConnectionPool {
         LOGGER = LogManager.getLogger(ConnectionPool.class);
         locker = new ReentrantLock();
         try {
-            Class.forName(AbstractDBConstants.DRIVER_CLASS);
+            Class.forName(AbstractDBConstant.DRIVER_CLASS);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
             LOGGER.log(Level.ERROR, e.getMessage());
@@ -91,9 +91,9 @@ public final class ConnectionPool {
                 try {
                     if (this.connections.isEmpty()) {
                         connection = DriverManager.getConnection(
-                                AbstractDBConstants.DB_URL,
-                                AbstractDBConstants.DB_USER,
-                                AbstractDBConstants.DB_PASSWORD);
+                                AbstractDBConstant.DB_URL,
+                                AbstractDBConstant.DB_USER,
+                                AbstractDBConstant.DB_PASSWORD);
                     } else {
                         connection = this.connections.take();
                         if (!connection.isValid(0)) {
@@ -119,7 +119,8 @@ public final class ConnectionPool {
      * @param connection value of the object Connection
      * @throws ApplicationException if problem with threads
      */
-    public void freeConnection(final Connection connection) throws ApplicationException {
+    public void freeConnection(final Connection connection)
+            throws ApplicationException {
         try {
             this.connections.put(connection);
         } catch (InterruptedException e) {

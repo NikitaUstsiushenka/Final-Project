@@ -2,7 +2,6 @@ package com.epam.onlinepharmacy.sorting;
 
 import com.epam.onlinepharmacy.entity.AbstractEntity;
 import com.epam.onlinepharmacy.entity.Drug;
-import com.epam.onlinepharmacy.main.AbstractProgramConstants;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -41,6 +40,8 @@ public class SortDrugsByName implements Specification {
     @Override
     public void execute(final List<? extends AbstractEntity> entities) {
 
+        final String debugString = " Drugs sorted by name.";
+
         entities.sort((final AbstractEntity entity1,
                        final AbstractEntity entity2) -> {
 
@@ -51,7 +52,7 @@ public class SortDrugsByName implements Specification {
 
         });
 
-        LOGGER.log(Level.DEBUG, AbstractProgramConstants.DRUGS_SORTED_BY_NAME);
+        LOGGER.log(Level.DEBUG, debugString);
 
     }
 }

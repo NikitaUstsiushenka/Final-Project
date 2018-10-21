@@ -4,7 +4,6 @@ import com.epam.onlinepharmacy.entity.AbstractEntity;
 import com.epam.onlinepharmacy.database.pool.ConnectionPool;
 import com.epam.onlinepharmacy.exceptions.ApplicationException;
 import com.epam.onlinepharmacy.factory.EntityFactory;
-import com.epam.onlinepharmacy.main.AbstractProgramConstants;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -61,7 +60,7 @@ public abstract class AbstractDao<T extends AbstractEntity> {
      * This method return all elements from table.
      *
      * @return list of the objects that extend AbstractEntity class
-     * @throws ApplicationException
+     * @throws ApplicationException throw SQLException
      */
     public abstract List<T> selectAll() throws ApplicationException;
 
@@ -69,7 +68,7 @@ public abstract class AbstractDao<T extends AbstractEntity> {
      * This method insert element in table.
      *
      * @param entity value of the object that extends AbstractEntity class
-     * @throws ApplicationException
+     * @throws ApplicationException throw SQLException
      */
     public abstract void insert(T entity) throws ApplicationException;
 
@@ -127,10 +126,13 @@ public abstract class AbstractDao<T extends AbstractEntity> {
      */
     public void setFactory(final EntityFactory newFactory) {
 
+        final String debugString
+                = " Attribute is null in method setFactory(EntityFactory).";
+
         if (newFactory != null) {
             this.factory = newFactory;
         } else {
-            LOGGER.log(Level.DEBUG, AbstractProgramConstants.ATTRIBUTE_ERROR);
+            LOGGER.log(Level.DEBUG, debugString);
         }
 
     }

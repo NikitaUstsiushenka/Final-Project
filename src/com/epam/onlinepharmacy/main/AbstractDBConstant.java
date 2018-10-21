@@ -4,21 +4,29 @@ package com.epam.onlinepharmacy.main;
  * This class stores database constants.
  *
  * @author Nikita
- * @since 14.09.2018
  * @version 1.0
- * */
-public abstract class AbstractDBConstants {
+ * @since 14.09.2018
+ */
+public abstract class AbstractDBConstant {
 
-    /** Value of the driver class. */
+    /**
+     * Value of the driver class.
+     */
     public static final String DRIVER_CLASS;
 
-    /** Value of the database url. */
+    /**
+     * Value of the database url.
+     */
     public static final String DB_URL;
 
-    /** Value of the database user. */
+    /**
+     * Value of the database user.
+     */
     public static final String DB_USER;
 
-    /** Value of the user password. */
+    /**
+     * Value of the user password.
+     */
     public static final String DB_PASSWORD;
 
     static {
@@ -32,8 +40,8 @@ public abstract class AbstractDBConstants {
 
     /**
      * Protected default constructor.
-     * */
-    protected AbstractDBConstants() {
+     */
+    protected AbstractDBConstant() {
 
     }
 

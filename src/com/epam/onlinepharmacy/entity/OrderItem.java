@@ -1,5 +1,9 @@
 package com.epam.onlinepharmacy.entity;
 
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 /**
  * This entity class stores information about the single order.
  *
@@ -10,9 +14,14 @@ package com.epam.onlinepharmacy.entity;
 public final class OrderItem extends AbstractEntity {
 
     /**
-     * Value of the drug id.
+     * Logger for debug.
      */
-    private int drugId;
+    private static final Logger LOGGER;
+
+    /**
+     * Value of the object Drug.
+     */
+    private Drug drug;
 
     /**
      * Value of the order id.
@@ -29,6 +38,10 @@ public final class OrderItem extends AbstractEntity {
      */
     private int recipeId;
 
+    static {
+        LOGGER = LogManager.getLogger(OrderItem.class);
+    }
+
     /**
      * Public default constructor.
      */
@@ -44,7 +57,7 @@ public final class OrderItem extends AbstractEntity {
     @Override
     public String toString() {
 
-        return getClass().getName() + "@drugId:" + this.drugId
+        return getClass().getName() + "@drug:" + this.drug
                 + "@orderId:" + this.orderId + "@count:" + this.count
                 + "@recipeId:" + this.recipeId;
 
@@ -56,7 +69,8 @@ public final class OrderItem extends AbstractEntity {
     @Override
     public int hashCode() {
 
-        return super.hashCode() + this.orderId + this.drugId
+        return super.hashCode() + this.orderId
+                + (this.drug == null ? 0 : this.drug.hashCode())
                 + this.count + this.recipeId;
 
     }
@@ -80,7 +94,8 @@ public final class OrderItem extends AbstractEntity {
                 result = false;
             } else {
                 result = (super.getId().equals(orderItem.getId())
-                        && this.drugId == orderItem.getDrugId()
+                        && (this.drug != null && this.drug
+                        .equals(orderItem.getDrug()))
                         && this.orderId == orderItem.getOrderId()
                         && this.count == orderItem.getCount()
                         && this.orderId == orderItem.getRecipeId());
@@ -95,24 +110,39 @@ public final class OrderItem extends AbstractEntity {
     }
 
     /**
-     * This method return value of the drug id.
+     * This method return value of the object Drug.
      *
-     * @return va;ue of the drug id
+     * @return value of the object Drug
      */
-    public int getDrugId() {
+    public Drug getDrug() {
 
-        return this.drugId;
+        final Drug result;
+
+        if (this.drug != null) {
+            result = this.drug;
+        } else {
+            result = new Drug();
+        }
+
+        return result;
 
     }
 
     /**
      * This method set new value of the drug id.
      *
-     * @param newDrugId new value of the drug id
+     * @param newDrug new value of the object Drug
      */
-    public void setDrugId(final int newDrugId) {
+    public void setDrug(final Drug newDrug) {
 
-        this.drugId = newDrugId;
+        final String debugString
+                = " Attribute is null in method setDrug(Drug).";
+
+        if (newDrug != null) {
+            this.drug = newDrug;
+        } else {
+            LOGGER.log(Level.DEBUG, debugString);
+        }
 
     }
 

@@ -29,9 +29,9 @@ public abstract class AbstractDrugDao extends AbstractDao<Drug> {
      *
      * @param name value of the drug name
      * @return list of the objects Drug
-     * @throws ApplicationException
+     * @throws ApplicationException throw SQLException
      */
-    public abstract List<Drug> selectByName(String name)
+    public abstract List<Drug> selectDrug(String name)
             throws ApplicationException;
 
     /**
@@ -39,9 +39,9 @@ public abstract class AbstractDrugDao extends AbstractDao<Drug> {
      *
      * @param name value of the drug name
      * @return list of the objects Drug
-     * @throws ApplicationException
+     * @throws ApplicationException throw SQLException
      */
-    public abstract List<Drug> selectByNameWithAnalogs(String name)
+    public abstract List<Drug> selectDrugWithAnalogs(String name)
             throws ApplicationException;
 
     /**
@@ -49,19 +49,30 @@ public abstract class AbstractDrugDao extends AbstractDao<Drug> {
      *
      * @param id value of the drug id
      * @return value of the object Drug
-     * @throws ApplicationException
+     * @throws ApplicationException throw SQLException
      */
-    public abstract Drug selectById(int id)
+    public abstract Drug selectDrug(int id)
             throws ApplicationException;
 
     /**
-     * This method updates drug count.
+     * This method updates drug count by drug id.
      *
      * @param drugId value of the drug id
      * @param count  new value of the drug count
-     * @throws ApplicationException
+     * @throws ApplicationException throw SQLException
      */
-    public abstract void updateDrugCount(final int drugId, final int count)
+    public abstract void updateDrug(int drugId, int count)
+            throws ApplicationException;
+
+    /**
+     * This method updates drug count by drug name and dosage.
+     *
+     * @param name   value of the drug name
+     * @param dosage value of the drug dosage
+     * @param count  value of the new drug count
+     * @throws ApplicationException throw SQLException
+     */
+    public abstract void updateDrug(String name, int dosage, int count)
             throws ApplicationException;
 
     /**
@@ -69,10 +80,10 @@ public abstract class AbstractDrugDao extends AbstractDao<Drug> {
      *
      * @param name   value of the drug name
      * @param dosage value of the drug dosage
-     * @throws ApplicationException
+     * @return value of the object Drug
+     * @throws ApplicationException throw SQLException
      */
-    public abstract Drug selectByNameDosage(final String name,
-                                            final int dosage)
+    public abstract Drug selectDrug(String name, int dosage)
             throws ApplicationException;
 
 }

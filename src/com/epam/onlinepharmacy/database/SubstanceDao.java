@@ -4,7 +4,7 @@ import com.epam.onlinepharmacy.database.dao.AbstractSubstanceDao;
 import com.epam.onlinepharmacy.database.pool.ConnectionPool;
 import com.epam.onlinepharmacy.entity.Substance;
 import com.epam.onlinepharmacy.exceptions.ApplicationException;
-import com.epam.onlinepharmacy.main.AbstractSQLQueries;
+import com.epam.onlinepharmacy.main.AbstractSQLQuery;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -13,6 +13,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -51,19 +52,20 @@ public final class SubstanceDao extends AbstractSubstanceDao {
 
         final List<Substance> substances = new ArrayList<>();
         final ResultSet resultSet;
-        final String debugString = getClass().getName()
-                + ": All substances selected from table 'substance'.";
+        final String debugString
+                = " All substances selected from table 'substance'.";
 
         Connection connection = null;
-        PreparedStatement statement = null;
+        Statement statement = null;
         Substance substance;
 
         try {
 
             connection = ConnectionPool.getInstance().getConnection();
-            statement = connection.prepareStatement(
-                    AbstractSQLQueries.SELECT_ALL_SUBSTANCES);
-            resultSet = statement.executeQuery();
+            statement = connection.createStatement();
+
+            resultSet = statement.executeQuery(
+                    AbstractSQLQuery.SELECT_ALL_SUBSTANCES);
 
             while (resultSet.next()) {
 
@@ -105,18 +107,18 @@ public final class SubstanceDao extends AbstractSubstanceDao {
 
             connection = ConnectionPool.getInstance().getConnection();
             statement = connection.prepareStatement(
-                    AbstractSQLQueries.INSERT_SUBSTANCE);
+                    AbstractSQLQuery.INSERT_SUBSTANCE);
             statement.setString(1, substance.getName());
 
             if (statement.executeUpdate() != 0) {
 
-                debugString = getClass().getName() + ": Object " + substance
+                debugString = " Object " + substance
                         + " inserted in table 'substance'.";
                 LOGGER.log(Level.DEBUG, debugString);
 
             } else {
 
-                debugString = getClass().getName() + ": Object " + substance
+                debugString = " Object " + substance
                         + " didn't insert in table 'substance'.";
                 LOGGER.log(Level.DEBUG, debugString);
 
@@ -137,7 +139,8 @@ public final class SubstanceDao extends AbstractSubstanceDao {
      * {@inheritDoc}
      */
     @Override
-    public boolean isExistSubstance(final String name) throws ApplicationException {
+    public boolean isExistSubstance(final String name)
+            throws ApplicationException {
 
         final boolean result;
         final ResultSet resultSet;
@@ -150,7 +153,7 @@ public final class SubstanceDao extends AbstractSubstanceDao {
 
             connection = ConnectionPool.getInstance().getConnection();
             statement = connection.prepareStatement(
-                    AbstractSQLQueries.SELECT_SUBSTANCE_BY_NAME);
+                    AbstractSQLQuery.SELECT_SUBSTANCE_BY_NAME);
             statement.setString(1, name);
             resultSet = statement.executeQuery();
 
@@ -166,10 +169,9 @@ public final class SubstanceDao extends AbstractSubstanceDao {
         }
 
         if (result) {
-            debugString = getClass().getName()
-                    + ": Substance with name " + name + " already exist.";
+            debugString = " Substance with name " + name + " already exist.";
         } else {
-            debugString = getClass().getName() + ": Substance with name "
+            debugString = " Substance with name "
                     + name + " else doesn't exist.";
         }
 

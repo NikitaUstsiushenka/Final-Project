@@ -26,6 +26,7 @@ public abstract class AbstractSubstanceDao extends AbstractDao<Substance> {
      *
      * @param name value of the substance name
      * @return boolean value
+     * @throws ApplicationException throw SQLException
      */
     public abstract boolean isExistSubstance(String name)
             throws ApplicationException;

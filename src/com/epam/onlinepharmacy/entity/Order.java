@@ -28,9 +28,9 @@ public final class Order extends AbstractEntity {
     private List<OrderItem> orderItems;
 
     /**
-     * Value of the client id.
+     * Value of the object Client.
      */
-    private int clientId;
+    private User client;
 
     /**
      * Value of the order price.
@@ -68,7 +68,7 @@ public final class Order extends AbstractEntity {
     public String toString() {
 
         return getClass().getName() + "@entity:" + super.toString()
-                + "@clientId:" + this.clientId + "@price:" + this.price
+                + "@client:" + this.client + "@price:" + this.price
                 + "@date:" + this.date + "@isPaid:" + this.paid
                 + "@orderItems:" + this.orderItems;
 
@@ -81,7 +81,8 @@ public final class Order extends AbstractEntity {
     public int hashCode() {
 
         return (int) (super.hashCode() + this.orderItems.size() + this.price
-                + this.clientId + this.date.hashCode() + (this.paid ? 1 : 0));
+                + (this.client != null ? this.client.hashCode() : 0)
+                + this.date.hashCode() + (this.paid ? 1 : 0));
 
     }
 
@@ -104,7 +105,8 @@ public final class Order extends AbstractEntity {
                 result = false;
             } else {
                 result = (super.getId().equals(order.getId())
-                        && this.clientId == order.getClientId()
+                        && (this.client != null
+                        && this.client.equals(order.getClient()))
                         && this.price == order.getPrice()
                         && this.isPaid() == order.isPaid()
                         && (this.date != null && this.date.equals(
@@ -138,9 +140,8 @@ public final class Order extends AbstractEntity {
      */
     public void setOrderItems(final List<OrderItem> newOrderItems) {
 
-        final String debugString = getClass().getName()
-                + ": Attribute is null in method " +
-                "setOrderItems(List<OrderItem>).";
+        final String debugString = " Attribute is null in method "
+                + "setOrderItems(List<OrderItem>).";
 
         if (newOrderItems != null) {
             this.orderItems = newOrderItems;
@@ -151,24 +152,39 @@ public final class Order extends AbstractEntity {
     }
 
     /**
-     * This method return value of the client id.
+     * This method return value of the object User.
      *
-     * @return value of the client id
+     * @return value of the object User
      */
-    public int getClientId() {
+    public User getClient() {
 
-        return this.clientId;
+        final User result;
+
+        if (this.client != null) {
+            result = this.client;
+        } else {
+            result = new User();
+        }
+
+        return result;
 
     }
 
     /**
-     * This method set new value of the client id.
+     * This method set new value of the object User.
      *
-     * @param newClientId new value of the client id
+     * @param newClient new value of the object User
      */
-    public void setClientId(final int newClientId) {
+    public void setClient(final User newClient) {
 
-        this.clientId = newClientId;
+        final String debugString
+                = " Attribute is null in method setClient(User).";
+
+        if (newClient != null) {
+            this.client = newClient;
+        } else {
+            LOGGER.log(Level.DEBUG, debugString);
+        }
 
     }
 
@@ -220,8 +236,8 @@ public final class Order extends AbstractEntity {
      */
     public void setDate(final Date newDate) {
 
-        final String debugString = getClass().getName()
-                + ": Attribute is null in method setDate(Date).";
+        final String debugString
+                = " Attribute is null in method setDate(Date).";
 
         if (newDate != null) {
             this.date = newDate;

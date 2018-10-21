@@ -5,6 +5,8 @@ import com.epam.onlinepharmacy.exceptions.ApplicationException;
 import com.epam.onlinepharmacy.factory.UserFactory;
 import com.epam.onlinepharmacy.main.UserRole;
 
+import java.util.List;
+
 /**
  * This abstract class stores classes for work with table 'user'.
  *
@@ -29,7 +31,7 @@ public abstract class AbstractUserDao extends AbstractDao<User> {
      * @param email    value of the user email
      * @param password value of the user password
      * @return boolean value
-     * @throws ApplicationException
+     * @throws ApplicationException throw SQLException
      */
     public abstract boolean isExistUser(String email, String password)
             throws ApplicationException;
@@ -39,7 +41,7 @@ public abstract class AbstractUserDao extends AbstractDao<User> {
      *
      * @param email value of the user email
      * @return boolean value
-     * @throws ApplicationException
+     * @throws ApplicationException throw SQLException
      */
     public abstract boolean isExistUser(String email)
             throws ApplicationException;
@@ -49,18 +51,47 @@ public abstract class AbstractUserDao extends AbstractDao<User> {
      *
      * @param email value of the user email
      * @return value of the object User
+     * @throws ApplicationException throw SQLException
      */
-    public abstract User selectUserByEmail(String email)
+    public abstract User selectUser(String email)
             throws ApplicationException;
 
     /**
-     * This method update user cash in table 'user'.
+     * This method selects user by user id.
      *
-     * @param email value of the user email
-     * @param money value of the money
-     * @throws ApplicationException
+     * @param userId value of the user id
+     * @throws ApplicationException throw SQLException
      */
-    public abstract void updateUserCash(final String email, final String money)
+    public abstract User selectUser(int userId)
+            throws ApplicationException;
+
+    /**
+     * This method updates user cash in table 'user'.
+     *
+     * @param email   value of the user email
+     * @param newCash value of the new cash
+     * @throws ApplicationException throw SQLException
+     */
+    public abstract void updateUserCash(String email, double newCash)
+            throws ApplicationException;
+
+    /**
+     * This method selects all users by role.
+     *
+     * @param role value of the user role
+     * @return list of users
+     * @throws ApplicationException throw SQLException
+     */
+    public abstract List<User> selectUser(UserRole role)
+            throws ApplicationException;
+
+    /**
+     * This method deletes user by id.
+     *
+     * @param clientId value of the client id
+     * @throws ApplicationException throw SQLException
+     */
+    public abstract void deleteClientById(int clientId)
             throws ApplicationException;
 
 }

@@ -27,15 +27,17 @@ public interface EntityFactory {
      *
      * @param request value of the object HttpServletRequest
      * @return value of the object AbstractEntity
+     * @throws ApplicationException throw ServletException and IOException
      */
-    AbstractEntity createEntity(HttpServletRequest request);
+    AbstractEntity createEntity(HttpServletRequest request)
+            throws ApplicationException;
 
     /**
      * This method creates objects that extend AbstractEntity class.
      *
      * @param resultSet value of the object ResultSet
      * @return value of the object AbstractEntity
-     * @throws ApplicationException
+     * @throws ApplicationException throw SQLException
      */
     AbstractEntity createEntity(ResultSet resultSet)
             throws ApplicationException;

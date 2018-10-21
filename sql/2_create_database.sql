@@ -81,7 +81,7 @@ CREATE TABLE IF NOT EXISTS `online-pharmacy`.`order` (
   CONSTRAINT `fk_order_user1`
     FOREIGN KEY (`client_id`)
     REFERENCES `online-pharmacy`.`user` (`id`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
 COMMENT = 'This table stores basic information about client orders';
@@ -113,7 +113,7 @@ CREATE TABLE IF NOT EXISTS `online-pharmacy`.`recipe` (
   CONSTRAINT `fk_recipe_user2`
     FOREIGN KEY (`client_id`)
     REFERENCES `online-pharmacy`.`user` (`id`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
 COMMENT = 'This table stores inforamtion about the recipe for drug.';
@@ -140,12 +140,12 @@ CREATE TABLE IF NOT EXISTS `online-pharmacy`.`order_item` (
   CONSTRAINT `fk_order_item_order1`
     FOREIGN KEY (`order_id`)
     REFERENCES `online-pharmacy`.`order` (`id`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_order_item_recipe1`
     FOREIGN KEY (`recipe_id`)
     REFERENCES `online-pharmacy`.`recipe` (`id`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
 COMMENT = 'This table stores infromation about one order. ';

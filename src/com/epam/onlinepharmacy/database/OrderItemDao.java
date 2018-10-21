@@ -5,7 +5,8 @@ import com.epam.onlinepharmacy.database.pool.ConnectionPool;
 import com.epam.onlinepharmacy.entity.OrderItem;
 import com.epam.onlinepharmacy.exceptions.ApplicationException;
 import com.epam.onlinepharmacy.factory.OrderItemFactory;
-import com.epam.onlinepharmacy.main.AbstractSQLQueries;
+import com.epam.onlinepharmacy.main.AbstractProgramConstant;
+import com.epam.onlinepharmacy.main.AbstractSQLQuery;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -14,6 +15,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -50,21 +52,21 @@ public final class OrderItemDao extends AbstractOrderItemDao {
     @Override
     public List<OrderItem> selectAll() throws ApplicationException {
 
-        final String debugString = getClass().getName()
-                + ": All objects selected from table 'order_item'.";
+        final String debugString
+                = " All objects selected from table 'order_item'.";
         final ResultSet resultSet;
         final List<OrderItem> orderItems = new ArrayList<>();
 
         Connection connection = null;
-        PreparedStatement statement = null;
+        Statement statement = null;
 
         try {
 
             connection = ConnectionPool.getInstance().getConnection();
-            statement = connection.prepareStatement(
-                    AbstractSQLQueries.SELECT_ALL_ORDER_ITEMS);
+            statement = connection.createStatement();
 
-            resultSet = statement.executeQuery();
+            resultSet = statement.executeQuery(
+                    AbstractSQLQuery.SELECT_ALL_ORDER_ITEMS);
 
             while (resultSet.next()) {
                 orderItems.add(((OrderItemFactory) super.getFactory())
@@ -101,22 +103,26 @@ public final class OrderItemDao extends AbstractOrderItemDao {
 
             connection = ConnectionPool.getInstance().getConnection();
             statement = connection.prepareStatement(
-                    AbstractSQLQueries.INSERT_ORDER_ITEM);
+                    AbstractSQLQuery.INSERT_ORDER_ITEM);
 
-            statement.setInt(1, orderItem.getOrderId());
-            statement.setInt(2, orderItem.getDrugId());
-            statement.setInt(3, orderItem.getRecipeId());
-            statement.setInt(4, orderItem.getCount());
+            statement.setInt(AbstractProgramConstant.NUMBER_1,
+                    orderItem.getOrderId());
+            statement.setInt(AbstractProgramConstant.NUMBER_2,
+                    orderItem.getDrug().getId());
+            statement.setInt(AbstractProgramConstant.NUMBER_3,
+                    orderItem.getRecipeId());
+            statement.setInt(AbstractProgramConstant.NUMBER_4,
+                    orderItem.getCount());
 
             if (statement.executeUpdate() != 0) {
 
-                debugString = getClass().getName() + ": Object " + orderItem
+                debugString = " Object " + orderItem
                         + " inserted in table 'order_item'.";
                 LOGGER.log(Level.DEBUG, debugString);
 
             } else {
 
-                debugString = getClass().getName() + ": Object " + orderItem
+                debugString = " Object " + orderItem
                         + " didn't insert in table 'order_item'.";
                 LOGGER.log(Level.DEBUG, debugString);
 
@@ -130,6 +136,53 @@ public final class OrderItemDao extends AbstractOrderItemDao {
             super.close(connection);
 
         }
+
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public List<OrderItem> selectOrderItem(final int orderId)
+            throws ApplicationException {
+
+        final ResultSet resultSet;
+        final List<OrderItem> orderItems = new ArrayList<>();
+        final String debugString
+                = " All OrderItem objects selected from table `order_item`.";
+
+        Connection connection = null;
+        PreparedStatement statement = null;
+
+        try {
+
+            connection = ConnectionPool.getInstance().getConnection();
+            statement = connection.prepareStatement(
+                    AbstractSQLQuery.SELECT_ITEMS_BY_ORDER_ID);
+
+            statement.setInt(1, orderId);
+
+            resultSet = statement.executeQuery();
+
+            while (resultSet.next()) {
+                orderItems.add(((OrderItemFactory) super.getFactory())
+                        .createEntity(resultSet));
+            }
+
+            System.out.println(orderItems.size());
+
+        } catch (SQLException e) {
+            throw new ApplicationException(e.getMessage());
+        } finally {
+
+            super.close(statement);
+            super.close(connection);
+
+        }
+
+        LOGGER.log(Level.DEBUG, debugString);
+
+        return orderItems;
 
     }
 

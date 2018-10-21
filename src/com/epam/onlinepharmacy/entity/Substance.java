@@ -1,6 +1,5 @@
 package com.epam.onlinepharmacy.entity;
 
-import com.epam.onlinepharmacy.main.AbstractProgramConstants;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -39,6 +38,8 @@ public final class Substance extends AbstractEntity {
 
     /**
      * Public initialize constructor.
+     *
+     * @param newName value of the new name
      */
     public Substance(final String newName) {
 
@@ -118,10 +119,15 @@ public final class Substance extends AbstractEntity {
 
     }
 
+    /**
+     * This method set new value of the substance name.
+     *
+     * @param newName new value of the substance name
+     */
     public void setName(final String newName) {
 
-        final String debugString = getClass().getName()
-                + ": Attribute is null in method setName(String).";
+        final String debugString
+                = " Attribute is null in method setName(String).";
 
         if (newName != null) {
             this.name = newName;

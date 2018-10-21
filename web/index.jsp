@@ -1,6 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="com.epam.onlinepharmacy.database.dao.AbstractDao" %>
 <%@ page import="com.epam.onlinepharmacy.database.DrugDao" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,8 +8,10 @@
     <c:url var="url_1" value="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="${url_1}"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <c:url var="url_2" value="${pageContext.request.contextPath}/styles/index_style.css"/>
+    <c:url var="url_2" value="/styles/index_style.css"/>
     <link rel="stylesheet" href="${url_2}">
+    <c:url var="url_3" value="/styles/table_style.css"/>
+    <link rel="stylesheet" href="${url_3}">
     <c:url var="image_url" value="images/cross.png"/>
     <link rel="icon" href="${image_url}" type="images/x-icon">
     <title><c:out value="Online-pharmacy"/></title>

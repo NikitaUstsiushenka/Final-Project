@@ -1,12 +1,16 @@
 package com.epam.onlinepharmacy.factory;
 
+import com.epam.onlinepharmacy.database.UserDao;
+import com.epam.onlinepharmacy.database.dao.AbstractDao;
 import com.epam.onlinepharmacy.entity.Order;
+import com.epam.onlinepharmacy.exceptions.ApplicationException;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
 /**
  * This class implements EntityFactory.
@@ -41,8 +45,7 @@ public final class OrderFactory implements EntityFactory {
     public Order createEntity() {
 
         final Order order = new Order();
-        final String debugString = getClass().getName() + ": Object "
-                + order + " created.";
+        final String debugString = " Object " + order + " created.";
 
         LOGGER.log(Level.DEBUG, debugString);
 
@@ -52,53 +55,67 @@ public final class OrderFactory implements EntityFactory {
 
     /**
      * {@inheritDoc}
-     * */
+     */
     @Override
-    public Order createEntity(final HttpServletRequest request) {
+    public Order createEntity(final HttpServletRequest request)
+            throws ApplicationException {
 
-        final Order order = new Order();
-        final String debugString1 = getClass().getName()
-                + ": Attribute is null in method " +
-                "createEntity(HttpServletRequest).";
-        final String debugString2;
+        final String errorString
+                = "Object Order can't be created from request.";
 
-        if (request != null) {
+        LOGGER.log(Level.DEBUG, errorString);
 
-
-
-        } else {
-            LOGGER.log(Level.DEBUG, debugString1);
-        }
-
-        debugString2 = getClass().getName() + ": Object "
-                + order + " created.";
-        LOGGER.log(Level.DEBUG, debugString2);
-
-        return order;
+        throw new ApplicationException(errorString);
 
     }
 
     /**
      * {@inheritDoc}
-     * */
+     */
     @Override
     public Order createEntity(final ResultSet resultSet) {
 
         final Order order = new Order();
-        final String debugString1 = getClass().getName()
-                + ": Attribute is null in method createEntity(ResultSet).";
+        final AbstractDao dao = new UserDao();
+        final String debugString1
+                = " Attribute is null in method createEntity(ResultSet).";
         final String debugString2;
 
         if (resultSet != null) {
 
+            try {
 
+                order.setId(resultSet.getInt("id"));
+                order.setClient(((UserDao) dao)
+                        .selectUser(resultSet.getInt("client_id")));
+                order.setPrice(resultSet.getDouble("price"));
+                order.setDate(resultSet.getDate("date"));
+
+                switch (resultSet.getInt("is_paid")) {
+
+                    case 0:
+                        order.setPaid(false);
+                        break;
+                    case 1:
+                        order.setPaid(true);
+                        break;
+                    default:
+                        break;
+
+                }
+
+            } catch (SQLException | ApplicationException e) {
+
+                LOGGER.log(Level.ERROR, e.getMessage());
+                e.printStackTrace();
+
+            }
 
         } else {
             LOGGER.log(Level.DEBUG, debugString1);
         }
 
-        debugString2 = getClass().getName() + ": Object "
-                + order + " created.";
+        debugString2 = " Object " + order + " created.";
         LOGGER.log(Level.DEBUG, debugString2);
 
         return order;

@@ -2,7 +2,6 @@ package com.epam.onlinepharmacy.factory;
 
 import com.epam.onlinepharmacy.entity.Drug;
 import com.epam.onlinepharmacy.entity.Substance;
-import com.epam.onlinepharmacy.main.AbstractProgramConstants;
 import com.epam.onlinepharmacy.main.DrugType;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -44,9 +43,12 @@ public final class DrugFactory implements EntityFactory {
     @Override
     public Drug createEntity() {
 
-        LOGGER.log(Level.DEBUG, AbstractProgramConstants.DRUG_CREATED);
+        final Drug drug = new Drug();
+        final String debugString = " Object " + drug + " created.";
 
-        return new Drug();
+        LOGGER.log(Level.DEBUG, debugString);
+
+        return drug;
 
     }
 
@@ -57,6 +59,9 @@ public final class DrugFactory implements EntityFactory {
     public Drug createEntity(final HttpServletRequest request) {
 
         final Drug drug = new Drug();
+        final String debugString1 = " Attribute is null in method "
+                + "createEntity(HttpServletRequest).";
+        final String debugString2;
 
         if (request != null) {
 
@@ -110,10 +115,11 @@ public final class DrugFactory implements EntityFactory {
             }
 
         } else {
-            LOGGER.log(Level.DEBUG, AbstractProgramConstants.ATTRIBUTE_ERROR);
+            LOGGER.log(Level.DEBUG, debugString1);
         }
 
-        LOGGER.log(Level.DEBUG, AbstractProgramConstants.DRUG_CREATED);
+        debugString2 = " Object " + drug + " created.";
+        LOGGER.log(Level.DEBUG, debugString2);
 
         return drug;
 
@@ -126,6 +132,10 @@ public final class DrugFactory implements EntityFactory {
     public Drug createEntity(final ResultSet resultSet) {
 
         final Drug drug = new Drug();
+        final String debugString1
+                = " Attribute is null in method createEntity(ResultSet).";
+        final String debugString2 = " Drug type is incorrect.";
+        final String debugString3;
 
         if (resultSet != null) {
 
@@ -173,9 +183,7 @@ public final class DrugFactory implements EntityFactory {
                         drug.setType(DrugType.SYRUP);
                         break;
                     default:
-                        LOGGER.log(Level.DEBUG,
-                                AbstractProgramConstants
-                                        .TYPE_IS_INCORRECT);
+                        LOGGER.log(Level.DEBUG, debugString2);
                         break;
                 }
 
@@ -186,10 +194,11 @@ public final class DrugFactory implements EntityFactory {
 
             }
         } else {
-            LOGGER.log(Level.DEBUG, AbstractProgramConstants.ATTRIBUTE_ERROR);
+            LOGGER.log(Level.DEBUG, debugString1);
         }
 
-        LOGGER.log(Level.DEBUG, AbstractProgramConstants.DRUG_CREATED);
+        debugString3 = " Object " + drug + " created.";
+        LOGGER.log(Level.DEBUG, debugString3);
 
         return drug;
 

@@ -1,6 +1,5 @@
 package com.epam.onlinepharmacy.entity;
 
-import com.epam.onlinepharmacy.main.AbstractProgramConstants;
 import com.epam.onlinepharmacy.main.UserRole;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -41,7 +40,7 @@ public final class User extends AbstractEntity {
     private UserRole role;
 
     /**
-     * Value of the hash code of password.
+     * Value of the password.
      */
     private String password;
 
@@ -172,8 +171,8 @@ public final class User extends AbstractEntity {
      */
     public void setUserName(final String newUserName) {
 
-        final String debugString = getClass().getName()
-                + ": Attribute is null in method setUserName(String).";
+        final String debugString
+                = " Attribute is null in method setUserName(String).";
 
         if (newUserName != null) {
             this.userName = newUserName;
@@ -209,13 +208,13 @@ public final class User extends AbstractEntity {
      */
     public void setUserLastName(final String newUserLastName) {
 
-        final String debugString = getClass().getName()
-                + ": Attribute is null in method setUserLastName(String).";
+        final String debugString
+                = " Attribute is null in method setUserLastName(String).";
 
         if (newUserLastName != null) {
             this.userLastName = newUserLastName;
         } else {
-            LOGGER.log(Level.DEBUG, AbstractProgramConstants.ATTRIBUTE_ERROR);
+            LOGGER.log(Level.DEBUG, debugString);
         }
 
     }
@@ -246,8 +245,8 @@ public final class User extends AbstractEntity {
      */
     public void setEmail(final String newEmail) {
 
-        final String debugString = getClass().getName()
-                + ": Attribute is null in method setEmail(String).";
+        final String debugString
+                = " Attribute is null in method setEmail(String).";
 
         if (newEmail != null) {
             this.email = newEmail;
@@ -275,8 +274,8 @@ public final class User extends AbstractEntity {
      */
     public void setRole(final UserRole newRole) {
 
-        final String debugString = getClass().getName()
-                + ": Attribute is null in method setRole(UserRole).";
+        final String debugString
+                = " Attribute is null in method setRole(UserRole).";
 
         if (newRole != null) {
             this.role = newRole;
@@ -342,8 +341,8 @@ public final class User extends AbstractEntity {
      */
     public void setSpeciality(final String newSpeciality) {
 
-        final String debugString = getClass().getName()
-                + ": Attribute is null in method setSpeciality(String).";
+        final String debugString
+                = " Attribute is null in method setSpeciality(String).";
 
         if (newSpeciality != null) {
             this.speciality = newSpeciality;
