@@ -707,7 +707,7 @@ public class Controller extends HttpServlet {
             response.sendRedirect("pharmacy");
 
             SendingEmail.send(user.getEmail(), "Cash",
-                    user.getCash() + " Br credited to your account.");
+                    money + " Br credited to your account.");
 
             debugString = " Increase user " + user + " money by " + money;
             LOGGER.log(Level.DEBUG, debugString);

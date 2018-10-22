@@ -2,5 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Online-pharmacy Tests">
     <suite-files>
+        <suite-file path="drugfactorytests/drugfactory.xml"/>
+        <suite-file path="orderfactorytests/orderfactory.xml"/>
+        <suite-file path="userfactorytests/userfactory.xml"/>
     </suite-files>
 </suite>
